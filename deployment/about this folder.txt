@@ -1,0 +1,21 @@
+Deployment
+
+This folder contains the Streamlit application for the AI-Based AQI Prediction and Protective Advisory System.
+
+ Main File : `app.py`
+
+The Streamlit application provides a user-friendly interface for interacting with the AQI prediction system.
+
+It is intended to help users view AQI predictions, understand air quality conditions, and access relevant health-related guidance.
+
+Purpose:
+
+The purpose of this folder is to provide the web-based interface for the AQI prediction project.
+
+Running the Application
+
+run:
+
+`streamlit run deployment/app.py`
+
+Make sure the required Python packages are installed and the necessary model files and datasets are available.
