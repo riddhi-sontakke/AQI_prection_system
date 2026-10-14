@@ -1,0 +1,24 @@
+Pipeline
+
+This folder contains the AQI prediction pipeline used in the project.
+
+The pipeline processes air quality data from local CSV datasets, prepares it for prediction, and uses trained machine learning models to estimate the Air Quality Index (AQI).
+
+Files
+
+realtime_pipeline.py : 
+- Loads and processes city-specific air quality datasets.
+- Uses trained models to predict AQI values.
+- Generates short-term AQI forecasts.
+- Provides prediction results and health advisory information.
+- Supports repeated predictions at scheduled intervals.
+
+realtime_pipeline1.py :
+- Acts as a compatibility wrapper for `realtime_pipeline.py`.
+- Imports the main pipeline functionality for use by other project modules.
+
+Purpose :
+
+The purpose of this folder is to connect data preprocessing, AQI prediction, forecasting, and health advisory generation into a single workflow.
+
+Note: The current pipeline uses local CSV datasets and does not directly fetch live air quality readings from external APIs.
