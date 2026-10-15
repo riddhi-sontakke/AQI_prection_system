@@ -6,9 +6,9 @@ These files store city wise prediction results and training summaries for Bengal
 
  Contents
 
-- **Prediction files:** Store generated AQI prediction results.
-- **Training summary files:** Store information and results from model training.
-- **General training summary:** Contains an overall summary of the training process.
+- Prediction files: Store generated AQI prediction results.
+- Training summary files: Store information and results from model training.
+- General training summary: Contains an overall summary of the training process.
 
 Purpose
 
