@@ -1,0 +1,46 @@
+{
+  "aqi": 163.0,
+  "category": "Moderately Polluted",
+  "color": "#FFFF00",
+  "emoji": "\ud83d\udfe0",
+  "confidence": 63.6,
+  "timestamp": "2026-04-30 12:46",
+  "city": "Mumbai",
+  "advice": {
+    "general": [
+      "Reduce prolonged outdoor physical exertion.",
+      "Keep windows partially closed during peak traffic hours.",
+      "Check air quality before outdoor activities.",
+      "Increase water intake \u2014 hydration helps flush pollutants."
+    ],
+    "children": [
+      "Shorten outdoor play sessions (< 30 min at a time).",
+      "Avoid outdoor sports during 9-11 AM and 6-9 PM.",
+      "Rinse eyes and nose after outdoor activities."
+    ],
+    "elderly": [
+      "Avoid strenuous outdoor activities.",
+      "Prefer air-conditioned or indoor environments.",
+      "Morning walks: prefer before 7 AM or after 7 PM."
+    ],
+    "respiratory": [
+      "Asthma/COPD patients: stay indoors when possible.",
+      "Always carry emergency inhalers.",
+      "Wear N95 mask if outdoor activity is necessary.",
+      "Consult your doctor if symptoms worsen."
+    ],
+    "outdoor_workers": [
+      "Wear 3-ply surgical masks at minimum.",
+      "Take breaks indoors every 90 minutes.",
+      "Avoid construction/roadside work without PPE."
+    ]
+  },
+  "flags": {
+    "outdoor_safe": true,
+    "mask_required": true,
+    "mask_type": "Surgical/3-ply mask recommended",
+    "air_purifier": false,
+    "emergency": false
+  },
+  "city_alert": null
+}

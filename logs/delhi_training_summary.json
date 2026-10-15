@@ -1,0 +1,26 @@
+{
+  "city": "Delhi",
+  "dataset": "C:\\Users\\ASUS\\OneDrive\\\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\\Desktop\\aqi_system\\data\\DelhiData.csv",
+  "artifact_dir": "C:\\Users\\ASUS\\OneDrive\\\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\\Desktop\\aqi_system\\models\\delhi",
+  "lstm_enabled": true,
+  "training_time": 4220.0,
+  "dataset_rows": 29040,
+  "eval_results": {
+    "XGBoost": {
+      "MAE": 20.267388014904647,
+      "RMSE": 59.91551849900255,
+      "R2": 0.38302464241462575
+    },
+    "LSTM": {
+      "MAE": 27.381705016455385,
+      "RMSE": 66.35834600150739,
+      "R2": 0.2432014704346699
+    },
+    "Hybrid": {
+      "MAE": 38.209474718248515,
+      "RMSE": 55.918150201986535,
+      "R2": 0.46260358237235166
+    }
+  },
+  "timestamp": "2026-05-29 02:12:52"
+}

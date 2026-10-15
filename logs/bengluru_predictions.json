@@ -1,0 +1,43 @@
+[
+  {
+    "aqi": 94.8,
+    "category": "Satisfactory",
+    "color": "#92D050",
+    "emoji": "\ud83d\udfe1",
+    "confidence": 72.0,
+    "timestamp": "2026-04-28 02:28",
+    "city": "Bengluru",
+    "advice": {
+      "general": [
+        "Air quality is acceptable for most people.",
+        "Sensitive individuals may experience mild discomfort.",
+        "Outdoor activities are generally safe.",
+        "Light exercise outdoors is fine for healthy adults."
+      ],
+      "children": [
+        "Generally safe for outdoor play.",
+        "Watch for signs of eye irritation or coughing."
+      ],
+      "elderly": [
+        "Morning/evening walks are fine. Avoid peak traffic hours.",
+        "Light outdoor activity is acceptable."
+      ],
+      "respiratory": [
+        "Sensitive individuals: limit prolonged outdoor exertion.",
+        "Carry inhalers if you have asthma."
+      ],
+      "outdoor_workers": [
+        "Normal work schedule. Take regular water breaks.",
+        "Light mask (cloth/surgical) optional during dusty work."
+      ]
+    },
+    "flags": {
+      "outdoor_safe": true,
+      "mask_required": false,
+      "mask_type": "Optional cloth/surgical mask",
+      "air_purifier": false,
+      "emergency": false
+    },
+    "city_alert": null
+  }
+]

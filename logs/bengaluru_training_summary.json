@@ -1,0 +1,26 @@
+{
+  "city": "Bengaluru",
+  "dataset": "C:\\Users\\ASUS\\OneDrive\\\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\\Desktop\\aqi_system\\data\\BengluruData.csv",
+  "artifact_dir": "C:\\Users\\ASUS\\OneDrive\\\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\\Desktop\\aqi_system\\models\\bengaluru",
+  "lstm_enabled": true,
+  "training_time": 2625.6,
+  "dataset_rows": 29040,
+  "eval_results": {
+    "XGBoost": {
+      "MAE": 1.7296973982395045,
+      "RMSE": 2.5838456058729093,
+      "R2": 0.9906422209057162
+    },
+    "LSTM": {
+      "MAE": 3.9587450389620624,
+      "RMSE": 5.487489543878878,
+      "R2": 0.9577927476115163
+    },
+    "Hybrid": {
+      "MAE": 3.270396805687521,
+      "RMSE": 3.9788468489134243,
+      "R2": 0.9778101628143535
+    }
+  },
+  "timestamp": "2026-05-29 10:05:00"
+}
