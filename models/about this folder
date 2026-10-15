@@ -1,0 +1,19 @@
+Models
+
+This folder contains the machine learning model implementations and trained model artifacts used in the AQI Prediction System.
+
+Contents
+
+- lstm_model.py– Python implementation of the LSTM model.
+- xgboost_model.py – Python implementation of the XGBoost model.
+- hybrid_model.py – Code for the hybrid prediction model.
+- artifact_loader.py – Utility for loading saved model artifacts.
+- lstm_model.keras – Saved trained LSTM model.
+- xgboost_model.pkl – Saved XGBoost model.
+- hybrid_meta.pkl – Saved hybrid meta-model.
+- preprocessor.pkl – Saved preprocessing object.
+- bengaluru , delhi, mumbai – City-specific model folders.
+
+Purpose
+
+This folder stores the models and related files required for generating AQI predictions.
