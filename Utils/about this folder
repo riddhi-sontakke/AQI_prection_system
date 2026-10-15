@@ -1,0 +1,12 @@
+Utilities
+
+This folder contains helper modules used by the AQI Prediction System.
+
+Contents
+
+- aqi_advisor.py – Provides AQI-related advisory functionality.
+- __init__.py – Marks this directory as a Python package.
+
+Purpose
+
+The utilities support the prediction pipeline by providing reusable functions and AQI advisory features.
